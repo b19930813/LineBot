@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>關鍵字:</strong>
+  <%= @keyword_mapping.keyword %>
+</p>
+
+<p>
+  <strong>訊息:</strong>
+  <%= @keyword_mapping.message %>
+</p>
+
+<%= link_to '編輯', edit_keyword_mapping_path(@keyword_mapping),class:"btn btn-primary btn-xs"  %> |
+<%= link_to '回Keyword mapping', keyword_mappings_path ,class:"btn btn-primary btn-xs" %>

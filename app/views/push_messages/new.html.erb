@@ -1,0 +1,7 @@
+<%= form_with(url: '/push_messages', local: true) do |form| %>
+    Channel ID <br><%= text_area_tag 'channel' %>
+    <br>
+   內容 <br> <%= text_area_tag 'text' %>
+   <br>
+    <%= submit_tag "送出" %>
+  <% end %>

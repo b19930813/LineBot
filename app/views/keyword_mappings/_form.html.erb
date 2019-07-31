@@ -1,0 +1,25 @@
+<%= simple_form_for(keyword_mapping) do |form| %>
+  <% if keyword_mapping.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(keyword_mapping.errors.count, "error") %> prohibited this keyword_mapping from being saved:</h2>
+
+      <ul>
+      <% keyword_mapping.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.input :keyword, label: "關鍵字" %>
+  </div>
+
+  <div class="field">
+  <%= form.input :message, label: "訊息" %>
+  </div>
+
+  <div class="actions">
+    <%=form.submit :送出, class: 'btn btn-success' %>
+  </div>
+<% end %>
