@@ -21,4 +21,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+# Function
+
+* Web crawler
+
+* learn speaking
+
+* Concat API 
+
+* Check log
