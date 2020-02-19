@@ -1,42 +1,29 @@
-# README
+# Line Bot
 
-# How to use
+串接Line API。 
 
-* bundle install
 
-* rails s 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Using
 
-Things you may want to cover:
+execute:
 
-* Ruby version
+    $ bundle install
+    $ rails db:migrate
+    $ rails s
 
-* System dependencies
+## 基本指令
+* ```學習 [key] [value]``` 存入kepword mapping
+* ```抽``` 從imgur上隨機獲得一張圖片
+* ```日幣/日圓``` 抓取台灣銀行當前的日幣匯率
+* ```美金``` 抓取台灣銀行當前的美金匯率
+* ```人民幣``` 抓取台灣銀行當前的人民幣匯率
+* ```日換台 [金額]``` 將日幣轉換成台幣
+* ```台換日 [金額]``` 將台幣轉換成日幣
+* ```美換台 [金額]``` 將美金換成日幣
+* ```台換美 [金額]``` 將台幣換成美金
+* ```key ``` 回傳value
 
-* Configuration
+## 佈署  
+Heroku
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-# Function
-
-* Web crawler
-
-* learn speaking
-
-* Concat API 
-
-* Check log
-
-# Server
-
-* Heroku
