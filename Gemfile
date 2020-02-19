@@ -6,8 +6,9 @@ ruby '2.4.4'
 gem 'bootstrap-sass'
 gem 'simple_form'
 
-#爬蟲用
-gem 'nokogiri'
+#取得匯率套件
+gem 'exchange_rate_TW', '~> 0.1.0'
+
 gem 'pry'
 gem 'devise'
 gem 'kaminari'
